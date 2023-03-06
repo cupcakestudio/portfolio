@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="raven_sketch" data-name="raven sketch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 251 244">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 105.09px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-3 {
+        letter-spacing: .09em;
+      }
+
+      .cls-4 {
+        fill: #f29ec8;
+      }
+
+      .cls-2 {
+        font-size: 34.08px;
+      }
+
+      .cls-5 {
+        fill: #64e6b9;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="6" y="3" width="238" height="238"/>
+  <rect class="cls-4" x="6" y="3" width="120" height="120"/>
+  <rect class="cls-4" x="126" y="123" width="118" height="118"/>
+  <text class="cls-1" transform="translate(38.47 100.73)"><tspan x="0" y="0">T</tspan></text>
+  <text class="cls-1" transform="translate(143.47 100.73)"><tspan x="0" y="0">H</tspan></text>
+  <text class="cls-1" transform="translate(41.47 214.73)"><tspan x="0" y="0">L</tspan></text>
+  <text class="cls-2" transform="translate(151.67 172.58) scale(.93 1)"><tspan class="cls-3"><tspan x="0" y="0">STU</tspan></tspan><tspan x="0" y="40.9">DIOS</tspan></text>
+</svg>

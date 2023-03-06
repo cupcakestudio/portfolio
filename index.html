@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ting Hua Lin - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <a href="index.html" id="indexLink">   <img class="logoImage" src="images/portfolio-logo-22.svg" /></a>
+  
+    <nav>
+      <a href="about.html">About</a><a href="#Projects">Projects</a
+      ><a href="#Contact">Contact</a>
+     
+    </nav>
+    <!-- nav menu for mobile -->
+    <ul class="menu">
+      <li><a class="home" href="index.html">Home</a></li>
+      <li><a class="projects" href="index.html#Projects">Projects</a></li>
+      <li><a class="about" href="about.html">About</a></li>
+      <li><a class="menuItem" href="index.html#Contact">Contact</a></li>
+    </ul>
+     <button class="hamburger">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+    <div class="heroBanner">
+      <img src="images/portfolio_splash.png" />
+    <div class="anim-typeSkills"><p class="textOverlay">
+          Frontend Developer 
+          | Illustrator </p>
+          </div>
+      <div class="anim-typewriter">
+    
+        </p>
+        <p class="typewriterText">Hi! My name is Ting Hua Lin</p>
+      </div>
+    </div>
+
+    <section id="kea1sem">
+      <h2 id="Projects">Point 'n Click game <br />1.sem</h2>
+      <div class="containerForSem">
+        <div class="Image"><img src="images/game_portfolio.png" /></div>
+        <div class="text">
+          <p class="para">
+            This is a game, made entirely from scratch during the first semester
+            of my journey to become a multimediadesigner. Using Illustrator to
+            create characters and scenes, I've produced a game
+            in agile manner, from, Idea to Delivery.
+          </p>
+          <p class="skills">Skills I've acquired:</p>
+          <div class="skillsContainer">
+            <li>Basic javascript</li>
+            <li>Adobe: Illustrator and animation</li>
+            <li>Project planning</li>
+           
+          </div>
+          <a href="https://thlstudios.dk/kea/04_animation/spil/ide.html"
+            >Read more about the game (in Danish)</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="kea2sem">
+      <h2>Campaign design <br />2.sem</h2>
+      <div class="containerForSem">
+        <div class="Image"><img src="images/nbu_portfolio.png" /></div>
+        <div class="text">
+          <p class="para">
+            In partnership with NBU, I've worked on a case, where I, in a
+            team,<br />
+            had to restructure their information architecture, from their
+            website. As well as develop an more user friendly experience on
+            their website.
+          </p>
+          <p class="skills">Here I've learned:</p>
+          <div class="skillsContainer">
+            <li>Optimize Information Architechture</li>
+            <li>Optimize UX</li>
+          </div>
+          <a href="https://www.thlstudios.dk/kea/09_cms/nbu-wp/"
+            >Read more about it here</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="kea3sem">
+      <h2>Javascript project <br />3.sem</h2>
+      <div class="containerForSem">
+        <div class="Image"><img src="images/hackedHogwarts_picture.png" /></div>
+        <div class="text">
+          <p class="para">
+           I've chosen the Frontend
+            developer course as my elective.<br />
+            A project I've developed, has been this: "Hacked Student
+            List". Demonstrated in this project, is: "Advanced javascript" -
+            hereunder expanded know how on usage of arrays and different
+            methods: filter & sorting concepts. Use of closure within the code
+            structure and the MVC design pattern.
+          </p>
+          <p class="skills">
+            Programs and tools gained in <i>Frontend:</i>
+          </p>
+          <div class="skillsContainer">
+            <li>Advanced javascript</li>
+            <li>Optimize design via coding</li>
+            <li>React</li>
+          </div>
+          <a href="https://github.com/cupcakestudio/hackedHogwartsStudentList"
+            >Check out the code</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="passion">
+      <h2>Ongoing projects</h2>
+      <div class="containerForCurrentProject">
+        <div class="paraContainer">
+          <p class="para">
+            This is visual js code used to draw shapes and other drawings. The
+            goal is to make visual drawings with looped code.
+          </p>
+        </div>
+        <!-- insert code in popop window -->
+        <div class="CodeContainerPopop hide">
+          <code
+            >Using a for loop I draw on a canvas: <br />for (let i = 0; i < 5;
+            i++) {
+            <br />
+            for (let j = 0; j < 5; j++) {<br />
+            x = 100 + (width + gap) * i; y = 100 + (width + gap) * j;<br />
+            context.beginPath(); context.rect(x, y, width, height);
+            context.stroke(); <br />if (Math.random() > 0.5) {
+            context.beginPath(); context.rect(x + 8, y + 8, width - 16, height -
+            16); context.stroke(); } } }</code
+          >
+          <button id="ClosePopop">Close</button>
+        </div>
+        <div class="jsCode">
+          <button id="moreShapes">Show another drawing</button>
+          <button id="showCode">Show some code</button>
+        </div>
+        <canvas width="400" height="400"></canvas>
+      </div>
+    </section>
+    <section>
+      <h2 id="Contact">Connect:</h2>
+      <p>Connect to me through these platforms:</p>
+
+      <a
+        id="linkedin"
+        href="https://www.linkedin.com/in/ting-hua-lin-21b919198/"
+      >
+        Linkedin<img src="images/LinkedIn_icon_circle.svg.png" />
+      </a>
+      <a
+        id="email"
+        href=" mailto: coolting.lin3@gmail.com"
+      >
+        Email: coolting.lin3@gmail.com<img src="images/Gmail_icon_(2020).svg.png" />
+      </a>
+     
+    </section>
+  </body>
+  <footer>All rights reserved to Ting Hua Lin (and their respective owners)</footer>
+
+  <script type="module" src="/js/drawShapes.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</html>
