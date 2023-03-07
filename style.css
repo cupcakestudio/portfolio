@@ -487,9 +487,7 @@ section .para, section .skills {
 section .quotesFromOthersAboutMe {
   display: grid;
 }
-section .quotesFromOthersAboutMe #qoutedFrom {
-  align-items: end;
-}
+
 
 /* Place the timelime to the left */
   .timeline::after {
